@@ -35,8 +35,11 @@ html {
     height: 5rem;
     display: flex;
     flex-direction: column;
-    background-color: rgb(152, 152, 152);
+    
     transition: all .07s ease;
+    box-shadow: -2px 12px 55px -15px rgba(0,0,0,0.71);
+    -webkit-box-shadow: -2px 12px 55px -15px rgba(0,0,0,0.71);
+    -moz-box-shadow: -2px 12px 55px -15px rgba(0,0,0,0.71);
     
 }
 
@@ -45,18 +48,19 @@ kbd {
     font-size: 4rem;
     color: rgb(244, 239, 232);
     font-weight: 600;
+    text-shadow: 0px 2px 11px rgba(0, 0, 0, 0.45);
 }
 
 .keys span {
     text-transform: uppercase;
     font-size: 1rem;
-    color: rgb(187, 128, 18);
+    color: rgb(239, 174, 53);
     font-weight: 600;
-    
+    text-shadow: 0px 2px 11px rgba(0,0,0,0.84);
 }
 
 .playing  {
     transform: scale(1.1);
     border-color: rgb(187, 128, 18);
-    box-shadow: 0 0 10px #ffc600;
+    box-shadow: 0 0 10px #f4d564;
 }
