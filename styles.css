@@ -1,0 +1,52 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url('images/caleb-george-pH88tHG-1yw-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+/* Keyboard */
+
+.keys {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.key {
+    border: solid .5rem rgb(110, 109, 109);
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size:1.5rem;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+    color: rgb(244, 239, 232);
+    font-weight: 600;
+}
+
+.keys span {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgb(187, 128, 18);
+    font-weight: 600;
+}
